@@ -1,0 +1,58 @@
+.header{
+    background-color: #000000;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fcfcfc;
+    box-shadow: 10px 5px 5px black;
+}
+
+.logo{
+    height: 15vw;
+    width: 15vw;
+    margin: 5vw;
+}
+
+.header button{
+    height: 15vw;
+    width: 15vw;
+    margin: 5vw;
+    border-radius: 20vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    color: #050E19;
+}
+
+@media screen and (min-width: 900px) {
+    .contenedor{
+        display: none;
+    }
+    .header{
+        background-color: #000000;
+        height: 20vw;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        color: #fcfcfc;
+        box-shadow: 10px 5px 5px black;
+    }
+    
+    .logo{
+        height: 15vw;
+        width: 15vw;
+        margin: 5vw;
+        display: none;
+    }
+    
+    .header button{
+        height: 15vw;
+        width: 15vw;
+        margin: 5vw;
+        border-radius: 20vw;
+        font-size: 2.5vw;
+        cursor: pointer;
+        color: #050E19;
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.div{
+    height: 340px;
+    width: 340px;
+    border-radius: 20px;
+    background-color: #131313;
+    color: white;
+    margin: 2vw;
+    transition: 1s;
+    text-align: center;
+}
+
+.div h1{
+    font-size: 2vw;
+}
+
+.div h3{
+    font-size: 1vw;
+}
+
+.div:hover{
+    transform: scale(1.2);
+}
+
+img{
+    height: 190px;
+}
+

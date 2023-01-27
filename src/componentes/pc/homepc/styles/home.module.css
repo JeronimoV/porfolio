@@ -1,0 +1,418 @@
+:root{
+    background-color: #131313;
+}
+
+.header{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://global-uploads.webflow.com/5f5a53e153805db840dae2db/6073fbc8ece768495cc698ca_programador-senior.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vw;
+    width: 100vw;
+}
+
+.contenedor{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 30vh;
+    color: white;
+    gap:10vw;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 9999rem;
+    border: 5px solid #c8417a;
+}
+
+.titulacion{
+    color: #c8417a;
+    width: 30vw;
+    font-size: 1.5vw;
+    position: relative;
+    left: 9vw;
+}
+
+.texto{
+    position: relative;
+    top: 1vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.texto h1{
+    color: #c8417a;
+    font-size: 3vw;
+    position: relative;
+    top: 2vw;
+    text-shadow: 5px 5px black;
+    position: relative;
+    left: 9vw;
+}
+
+.rango{
+    color: #c8417a;
+    font-size: 1vw;
+}
+
+.presentacion{
+    width: auto;
+    width: 40vw;
+    font-size: 0.9vw;
+}
+
+.contenedor1{
+    width: 100vw;
+    position: relative;
+    bottom: 10vw;
+    background-color: #131313;
+    height: auto;
+}
+
+.proyectosimg{
+    height: auto;
+    width: 50vw;
+    padding: 1vw;
+    position: relative;
+    left: 24vw;
+}
+
+.flechas{
+    display: flex;
+    gap: 65vw;
+    justify-content: center;
+    position: relative;
+    top: 19vw;
+}
+
+.flechitas1{
+    transform: rotate(180deg);
+    height: 7vw;
+    background-color: #c8417a;
+    border-radius: 9999rem;
+}
+
+.flechita2{
+    height: 7vw;
+    background-color: #c8417a;
+    border-radius: 9999rem;
+}
+
+.desaparece{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    left: 43vw;
+    top: 26vw;
+}
+
+.tituloide{
+    position: relative;
+    top: 8vw;
+    color: white;
+    font-size: 4vw;
+    position: relative;
+    left: 40vw;
+}
+
+.textoide{
+    position: relative;
+    top: 8vw;
+    color: white;
+    font-size: 1vw;
+}
+
+.h1desaparece{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor2{
+    background-color: black;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards1{
+    display: flex;
+}
+
+.cards2{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor3{
+    color: white;
+    margin-bottom: 5vw;
+    width: 100vw;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.contacto h1{
+    font-size: 2vw ;
+    position: relative;
+}
+
+.contacto p{
+    font-size: 1vw ;
+}
+
+.redes h1{
+    position: relative;
+    left: 47vw;
+}
+
+.contacto img{
+    height: 7vw;
+    margin-top: 2vw;
+    transition: 1s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto img:Hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 900px) {
+    
+.header{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://global-uploads.webflow.com/5f5a53e153805db840dae2db/6073fbc8ece768495cc698ca_programador-senior.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vw;
+    width: 100vw;
+    display: none;
+}
+
+.contenedor{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    top: 30vh;
+    color: white;
+    gap:10vw;
+}
+
+.texto2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 9999rem;
+    border: 5px solid #c8417a;
+    display: none;
+}
+
+.titulacion{
+    color: #c8417a;
+    width: 30vw;
+    font-size: 1.5vw;
+    display: none;
+}
+
+.texto{
+    position: relative;
+    top: 1vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    display: none;
+}
+
+.texto h1{
+    color: #c8417a;
+    font-size: 3vw;
+    position: relative;
+    top: 2vw;
+    text-shadow: 5px 5px black;
+    display: none;
+}
+
+.rango{
+    color: #c8417a;
+    font-size: 1vw;
+    display: none;
+}
+
+.presentacion{
+    width: auto;
+    width: 40vw;
+    font-size: 0.9vw;
+    display: none;
+}
+
+.contenedor1{
+    width: 100vw;
+    position: relative;
+    bottom: 10vw;
+    background-color: #131313;
+    height: auto;
+    display: none;
+}
+
+.proyectosimg{
+    height: auto;
+    width: 50vw;
+    padding: 1vw;
+    display: none;
+}
+
+.flechas{
+    display: none;
+    gap: 65vw;
+    justify-content: center;
+    position: relative;
+    top: 19vw;
+}
+
+.flechitas1{
+    transform: rotate(180deg);
+    height: 7vw;
+    background-color: #c8417a;
+    border-radius: 9999rem;
+    display: none;
+}
+
+.flechita2{
+    height: 7vw;
+    background-color: #c8417a;
+    border-radius: 9999rem;
+    display: none;
+}
+
+.desaparece{
+    position: absolute;
+    display: none;
+    text-align: center;
+    left: 43vw;
+    top: 26vw;
+}
+
+.tituloide{
+    position: relative;
+    top: 8vw;
+    color: white;
+    font-size: 4vw;
+    display: none;
+}
+
+.textoide{
+    position: relative;
+    top: 8vw;
+    color: white;
+    font-size: 1vw;
+    display: none;
+}
+
+.h1desaparece{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 2vw;
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    display: none;
+}
+
+.contenedor2{
+    background-color: black;
+    height: auto;
+    color: white;
+    display: none;
+    justify-content: center;
+    width: 100vw;
+}
+
+.cards{
+    display: none;
+    flex-direction: column;
+}
+
+.cards1{
+    display: none;
+}
+
+.cards2{
+    display: none;
+    justify-content: center;
+}
+
+.contenedor3{
+    color: white;
+    margin-bottom: 5vw;
+    width: 100vw;
+    display: none;
+}
+
+.contacto{
+    justify-content: center;
+    gap: 5vw;
+    display: none;
+}
+
+.contacto h1{
+    font-size: 2vw ;
+    display: none;
+}
+
+.contacto p{
+    font-size: 1vw ;
+    display: none;
+}
+
+.contacto img{
+    height: 7vw;
+    margin-top: 2vw;
+    transition: 1s;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.contacto img:Hover{
+    transform: scale(1.5);
+    display: none;
+}
+}

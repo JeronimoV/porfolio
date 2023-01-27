@@ -1,0 +1,124 @@
+
+
+.for{
+    font-size: 4vw;
+    background-color: #050E19;
+    height: 10vw;
+    width: 70vw;
+    display: flex;
+    position: relative;
+    left: 14vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vw;
+    top: 10vw;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+}
+
+.profolio{
+    width: 30vw;
+    height: 15vw;
+    background-color: #FEB7DB;
+    border-radius: 6vw;
+    cursor: pointer;
+}
+
+.button{
+    background: none;
+    border: none;
+    position: relative;
+    top: 9vw;
+}
+
+.flecha1{
+    position: relative;
+    height: 10vw;
+    top: 6vw;
+}
+.flecha2{
+    height: 10vw;
+    transform: rotate(180deg);
+    position: relative;
+    top: 6vw;
+}
+
+.proyectoides{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.proyectos{
+    position: relative;
+    top: 5vw;
+}
+
+.flecha1{
+    position: relative;
+    top: 9vw;
+}
+
+.flecha2{
+    position: relative;
+    top: 9vw;
+}
+
+@media screen and (min-width: 900px) {
+    
+.for{
+    font-size: 4vw;
+    background-color: #050E19;
+    height: 10vw;
+    width: 70vw;
+    display: none;
+    position: relative;
+    left: 14vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vw;
+    top: 10vw;
+    box-shadow: 0px 0px 10px black;
+}
+
+.profolio{
+    width: 30vw;
+    height: 15vw;
+    background-color: #FEB7DB;
+    border-radius: 6vw;
+    cursor: pointer;
+    display: none;
+}
+
+.button{
+    background: none;
+    border: none;
+    position: relative;
+    top: 9vw;
+    display: none;
+}
+
+.flecha1{
+    position: relative;
+    height: 10vw;
+    top: 6vw;
+    display: none;
+}
+.flecha2{
+    height: 10vw;
+    transform: rotate(180deg);
+    position: relative;
+    top: 6vw;
+    display: none;
+}
+    
+.contenedor{
+    display: none;
+}
+}
