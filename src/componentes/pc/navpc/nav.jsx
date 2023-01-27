@@ -45,7 +45,7 @@ function Navpc(){
                     <h3 onClick={() => scrollTechnologies()}>knowledge</h3>
                 </nav>
             </div>
-            <a className={styles.descargarCV} href="https://drive.google.com/file/d/1BUQ68zJrOqxKJ2Ns-QRQNAz8zvJC55HO/view?usp=sharing"><button>Download CV</button></a>
+            <a className={styles.descargarCV} href="https://drive.google.com/file/d/1BUQ68zJrOqxKJ2Ns-QRQNAz8zvJC55HO/view?usp=sharing"><button className={styles.boton}>Download CV</button></a>
         </div>
     )
 }

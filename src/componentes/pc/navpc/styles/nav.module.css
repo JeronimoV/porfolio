@@ -12,7 +12,7 @@
 }
 
 
-.descargarCV button{
+.boton{
     background-color: #c8417a;
     border: none;
     position: relative;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.descargarCV button:hover{
+.boton:hover{
     background-color: white;
     color: #c8417a;
 }

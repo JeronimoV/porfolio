@@ -81,10 +81,10 @@ function Homepc(){
                     <h1>Contact</h1>
                     <p>For all that tou need, you can contact me, i will answer as fast is possible</p>
                     <div className={styles.contacto}>
-                        <a href="https://wa.me/1164835449"><img draggable="false" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt=""></img></a>
-                        <a href="https://www.linkedin.com/in/jeronimo-vilar-457295245/"><img  draggable="false" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" /></a>
-                        <a href="https://www.t.me/JeronimoVilarDG"><img  draggable="false" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="" /></a>
-                        <a href="https://github.com/Bobardou"><img  draggable="false" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /></a>
+                        <a className={styles.a} href="https://wa.me/1164835449"><img draggable="false" src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt=""></img></a>
+                        <a  className={styles.a} href="https://www.linkedin.com/in/jeronimo-vilar-457295245/"><img  draggable="false" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" /></a>
+                        <a  className={styles.a} href="https://www.t.me/JeronimoVilarDG"><img  draggable="false" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="" /></a>
+                        <a  className={styles.a} href="https://github.com/Bobardou"><img  draggable="false" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /></a>
                     </div>
                 </div>
             </div>

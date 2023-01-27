@@ -4,11 +4,11 @@ import styles from "./styles/nav.module.css"
 function Nav(){
     return (
         <div className={styles.contenedor}>
-            <nav className={styles.header}>
-                <img className={styles.logo} src={logo} alt="" />
-                <h1>Porfolio</h1>
-                <button>Download CV</button>
-            </nav>
+            <ul className={styles.header}>
+                <li><img className={styles.logo} src={logo} alt="" /></li>
+                <li><h1>Porfolio</h1></li>
+                <li><button onClick={window.location.href = "https://drive.google.com/file/d/1BUQ68zJrOqxKJ2Ns-QRQNAz8zvJC55HO/view?usp=sharing"} className={styles.boton}>Download CV</button></li>
+                </ul>
         </div>
     )
 }

@@ -123,7 +123,11 @@
     color: white;
     font-size: 4vw;
     position: relative;
-    left: 40vw;
+    text-align: center;
+}
+
+.titulo1{
+    text-align: center;
 }
 
 .textoide{
@@ -138,9 +142,11 @@
     padding: 0;
     color: white;
     font-size: 2vw;
+    top: 4vw;
+    position: relative;
 }
 
-a{
+.a{
     text-decoration: none;
 }
 
@@ -182,6 +188,7 @@ a{
 .contacto h1{
     font-size: 2vw ;
     position: relative;
+    width: 100vw;
 }
 
 .contacto p{
@@ -189,8 +196,7 @@ a{
 }
 
 .redes h1{
-    position: relative;
-    left: 47vw;
+        text-align: center;
 }
 
 .contacto img{

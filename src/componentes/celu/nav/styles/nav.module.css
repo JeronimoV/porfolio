@@ -1,20 +1,22 @@
 .header{
-    background-color: #000000;
-    height: 20vw;
+    background-color: #050E19;
+    color: white;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fcfcfc;
-    box-shadow: 10px 5px 5px black;
+    height: 20vw;
+    margin: -10px;
 }
+
+ul{
+    list-style: none;
+}
+
 
 .logo{
     height: 15vw;
     width: 15vw;
-    margin: 5vw;
 }
 
-.header button{
+.boton{
     height: 15vw;
     width: 15vw;
     margin: 5vw;
@@ -22,6 +24,12 @@
     font-size: 2.5vw;
     cursor: pointer;
     color: #050E19;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 900px) {
@@ -44,7 +52,6 @@
         margin: 5vw;
         display: none;
     }
-    
     .header button{
         height: 15vw;
         width: 15vw;
